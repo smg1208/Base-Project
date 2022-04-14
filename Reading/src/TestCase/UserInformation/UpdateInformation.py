@@ -5,12 +5,12 @@ from datetime import datetime
 import xlsxwriter
 import re
 
-from TopAsia.src.pages.Browser import Browser
-import TopAsia.src.pages.page as page
-from TopAsia.src.pages.locators import *
-from TopAsia.src.pages.locators import UserInfoLocator as ul
-from TopAsia.src.pages.UIObject import UiObject
-from TopAsia.src.pages.utils import *
+from Reading.src.pages.Browser import Browser
+import Reading.src.pages.page as page
+from Reading.src.pages.locators import *
+from Reading.src.pages.locators import UserInfoLocator as ul
+from Reading.src.pages.UIObject import UiObject
+from Reading.src.pages.utils import *
 
 
 class UpdateUserInformation(unittest.TestCase):

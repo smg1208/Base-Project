@@ -8,15 +8,15 @@ import xlsxwriter
 import requests
 import json
 
-from TopAsia.src.pages.Browser import Browser
+from Reading.src.pages.Browser import Browser
 import time
 import os
 from random import randint
 import re
-from TopAsia.src.pages.locators import *
-from TopAsia.src.pages.locators import RechargeLocators as rl
-from TopAsia.src.pages.UIObject import UiObject
-from TopAsia.src.pages.page import *
+from Reading.src.pages.locators import *
+from Reading.src.pages.locators import RechargeLocators as rl
+from Reading.src.pages.UIObject import UiObject
+from Reading.src.pages.page import *
 
 
 # a = ['!','@','#','$','%','^','&','*','(',')',' ',';',':',"'",'"','`','~','>','.','<','{','}','[',']','\\',',','/','-','=','+']

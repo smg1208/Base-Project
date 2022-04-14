@@ -4,25 +4,25 @@ import unittest
 import os
 
 # HEADING TITLE CONTENT Testcase
-from TopAsia.src.TestCase.Heading_Title_Content.GameLobby import *
-from TopAsia.src.TestCase.Heading_Title_Content.CasinoLobby import *
+from Reading.src.TestCase.Heading_Title_Content.GameLobby import *
+from Reading.src.TestCase.Heading_Title_Content.CasinoLobby import *
 # URL FORMAT Testcase
-from TopAsia.src.TestCase.Url_Format.GameLobby import *
-from TopAsia.src.TestCase.Url_Format.CasinoLobby import *
+from Reading.src.TestCase.Url_Format.GameLobby import *
+from Reading.src.TestCase.Url_Format.CasinoLobby import *
 # LOGIN SIGNUP Testcase
-from TopAsia.src.TestCase.Login.Login import *
-from TopAsia.src.TestCase.Login.Signup import *
+from Reading.src.TestCase.Login.Login import *
+from Reading.src.TestCase.Login.Signup import *
 # UPDATE USER INFO Testcase
-from TopAsia.src.TestCase.UserInformation.UpdateInformation import *
-from TopAsia.src.TestCase.UserInformation.ChangePassword import *
+from Reading.src.TestCase.UserInformation.UpdateInformation import *
+from Reading.src.TestCase.UserInformation.ChangePassword import *
 # RECHARGE FLOW
-from TopAsia.src.TestCase.Recharge.Bank import *
-from TopAsia.src.TestCase.Withdraw.Bank import *
-from TopAsia.src.TestCase.Recharge.Momo import *
-from TopAsia.src.TestCase.Recharge.Card import *
-from TopAsia.src.TestCase.Withdraw.Card import *
-from TopAsia.src.TestCase.Recharge.Paywin import *
-from TopAsia.src.TestCase.APILoading.GameLoading import *
+from Reading.src.TestCase.Recharge.Bank import *
+from Reading.src.TestCase.Withdraw.Bank import *
+from Reading.src.TestCase.Recharge.Momo import *
+from Reading.src.TestCase.Recharge.Card import *
+from Reading.src.TestCase.Withdraw.Card import *
+from Reading.src.TestCase.Recharge.Paywin import *
+from Reading.src.TestCase.APILoading.GameLoading import *
 
 
 

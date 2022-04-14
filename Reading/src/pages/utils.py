@@ -12,7 +12,7 @@ class Report:
         self.name = name
         self.data = data
         now = str(datetime.now()).split('.')[0].replace(':', '_', -1)
-        dir_folder = os.getcwd() + '\\TopAsia Test Results' + '\\' + name
+        dir_folder = os.getcwd() + '\\Reading Test Results' + '\\' + name
         Create_dir(dir_folder)
         self.workbook = xlsxwriter.Workbook(dir_folder+'\\'+name+' ['+now+'].xlsx')
         self.worksheet = self.workbook.add_worksheet()
@@ -81,7 +81,7 @@ class Report_temp(Report):
         self.header = header
         self.name = name
         self.data = data
-        dir_folder = os.getcwd() + '\\TopAsia Test Results' + '\\' + name
+        dir_folder = os.getcwd() + '\\Reading Test Results' + '\\' + name
         Create_dir(dir_folder)
         self.workbook = xlsxwriter.Workbook(dir_folder+'\\'+name+' [TEMP].xlsx')
         self.worksheet = self.workbook.add_worksheet()

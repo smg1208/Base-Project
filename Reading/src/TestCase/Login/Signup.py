@@ -1,16 +1,16 @@
-# from TopAsia.src.pages.locators import SignupLocators, MainMenuLocators
+# from Reading.src.pages.locators import SignupLocators, MainMenuLocators
 import re
 import time
 import unittest
 from datetime import datetime
 
-import TopAsia.src.pages.page as page
+import Reading.src.pages.page as page
 import xlsxwriter
-from TopAsia.src.pages.Browser import Browser
-from TopAsia.src.pages.locators import *
-from TopAsia.src.pages.locators import SignupLocators as sl
-from TopAsia.src.pages.UIObject import UiObject
-from TopAsia.src.pages.utils import *
+from Reading.src.pages.Browser import Browser
+from Reading.src.pages.locators import *
+from Reading.src.pages.locators import SignupLocators as sl
+from Reading.src.pages.UIObject import UiObject
+from Reading.src.pages.utils import *
 from selenium import webdriver
 
 

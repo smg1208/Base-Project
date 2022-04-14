@@ -4,8 +4,8 @@ from selenium.webdriver import ActionChains
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.common.keys import Keys
-from TopAsia.src.pages.Browser import Browser
-from TopAsia.src.pages.utils import Create_dir
+from Reading.src.pages.Browser import Browser
+from Reading.src.pages.utils import Create_dir
 
 
 class UiObject:
@@ -212,9 +212,9 @@ class UiObject:
         try:
             dir_img = os.getcwd()
             if location == '':
-                path = dir_img +'\\TopAsia Test Results\\img'
+                path = dir_img +'\\Reading Test Results\\img'
             else:
-                path = dir_img +'\\TopAsia Test Results\\' + location +'\\img'                
+                path = dir_img +'\\Reading Test Results\\' + location +'\\img'                
             Create_dir(path)
             file = path + '\\' + filename + '.png'
             self.driver.get_screenshot_as_file(file)

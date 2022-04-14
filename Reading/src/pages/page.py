@@ -1,6 +1,6 @@
 from datetime import datetime
-from TopAsia.src.pages.utils import Create_dir
-from TopAsia.src.pages.Browser import Browser
+from Reading.src.pages.utils import Create_dir
+from Reading.src.pages.Browser import Browser
 import os
 import time
 import re
@@ -20,9 +20,9 @@ class BasePage(object):
         try:
             dir_img = os.getcwd()
             if location == '':
-                path = dir_img + '\\TopAsia Test Results\\img'
+                path = dir_img + '\\Reading Test Results\\img'
             else:
-                path = dir_img + '\\TopAsia Test Results\\' + location + '\\img'
+                path = dir_img + '\\Reading Test Results\\' + location + '\\img'
             Create_dir(path)
             file = path + '\\' + filename + '.png'
             print(file)

@@ -1,16 +1,16 @@
-# from TopAsia.src.pages.utils import Report_temp
+# from Reading.src.pages.utils import Report_temp
 import unittest
 from selenium import webdriver
 import time
 from datetime import datetime
 import xlsxwriter
 
-from TopAsia.src.pages.Browser import Browser
-import TopAsia.src.pages.page as page
-from TopAsia.src.pages.locators import *
-from TopAsia.src.pages.locators import CongGameLocators as cg
-from TopAsia.src.pages.UIObject import UiObject
-from TopAsia.src.pages.utils import *
+from Reading.src.pages.Browser import Browser
+import Reading.src.pages.page as page
+from Reading.src.pages.locators import *
+from Reading.src.pages.locators import CongGameLocators as cg
+from Reading.src.pages.UIObject import UiObject
+from Reading.src.pages.utils import *
 
 
 class GameLobbyHeadingTitle(unittest.TestCase):

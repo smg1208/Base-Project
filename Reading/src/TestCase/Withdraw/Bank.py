@@ -6,12 +6,12 @@ import re
 import random
 from datetime import datetime
 
-from TopAsia.src.pages.Browser import Browser
-from TopAsia.src.pages.page import *
-from TopAsia.src.pages.locators import *
-from TopAsia.src.pages.locators import WithdrawLocators as wl
-from TopAsia.src.pages.UIObject import UiObject
-from TopAsia.src.pages.utils import *
+from Reading.src.pages.Browser import Browser
+from Reading.src.pages.page import *
+from Reading.src.pages.locators import *
+from Reading.src.pages.locators import WithdrawLocators as wl
+from Reading.src.pages.UIObject import UiObject
+from Reading.src.pages.utils import *
 
 
 class WithdrawBanksFlow(unittest.TestCase):

@@ -1,11 +1,11 @@
 from selenium.webdriver.common.by import By
-from TopAsia.src.pages.UIObject import UiObject
+from Reading.src.pages.UIObject import UiObject
 
 
 class ge(object):
     # DOMAIN = 'http://v2.fabet.info/'
     DOMAIN = 'http://dev-ta.mooo.com/'
-    ProjectName = 'TopAsia'
+    ProjectName = 'Reading'
 
 
 class MainMenuLocators(object):
